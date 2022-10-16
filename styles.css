@@ -1,0 +1,10 @@
+#BG {
+ background-image: url("silverware.jpg");
+}
+
+.UpperHome {
+ background-color: #f0f0f0;
+   color: #a4a400;
+   font-family: verdana;
+   font-size: 300%;
+}

@@ -1,0 +1,114 @@
+#BG{
+background-image:url("silverware.jpg");
+}
+
+.UpperHome{
+text-align:center;
+margin:auto;
+}
+.UpperHome>h1{
+font-size:40px;
+max-width:1024px;
+padding: 40px 0;
+}
+
+.hasBoarder > h1{
+margin:auto;
+text-align: center;
+}
+
+.Columnized{
+column-count:3;
+column-rule-color: #a4a400;;
+column-rule-style: solid ;
+margin: 10px 0;
+}
+.Columnized img{
+border-radius: 50%;
+max-width:100%;
+height: auto;
+}
+.mid{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  color: #a4a400;
+  text-align: center;
+  align-self: center;
+  }
+  a:link {
+    color:#a4a400;
+  }
+  a:visited {
+    color: #a4a400;
+  }
+  a:hover {
+    color: #a4a400;
+  }
+  a:active {
+    color: #a4a400;
+  }
+
+  .comment{
+  background-color:#ffffa8;
+  }
+
+  form{
+width: fit-content;
+  }
+
+  input[type=text]{
+   border: none;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    width: fit-content;
+  }
+  input[type=email]{
+     border: none;
+      border-bottom: 1px solid grey;
+      border-right: 1px solid grey;
+    }
+    textarea{
+      border: none;
+          border-bottom: 1px solid grey;
+          border-right: 1px solid grey;
+    }
+
+.method{
+column-count:3;
+column-rule-color: #a4a400;;
+column-rule-style: solid ;
+margin: 10px 0;
+}
+
+/* Generalization */
+div {
+max-width:1024px;
+margin:auto;
+font-family:Segoe UI
+}
+.hasBoarder {
+max-width:50%;
+text-align: center;
+color:#a4a400;
+background-color:#f0f0f0;
+border-radius: 40px;
+margin: 10px 0;
+padding:20px 0;
+border:2px solid green;
+text-align: center;
+font-size: 20px;
+}
+#center{
+margin:auto;
+text-align: center;
+}
+.smaller{
+max-width:512px;
+margin:auto;
+max-width:512px;
+}
+
+ul {
+  list-style-image: url('fish_icon_24.png');
+ }

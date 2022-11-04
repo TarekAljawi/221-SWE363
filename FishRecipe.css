@@ -23,6 +23,22 @@ column-rule-color: #a4a400;;
 column-rule-style: solid ;
 margin: 10px 0;
 }
+@media(max-width: 992px) {
+  .Columnized{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+     column-count: 2;
+  }
+}
+@media only screen and (max-width: 600px)  {
+  .Columnized{
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+     column-count: 1;
+  }
+}
+
+
 .Columnized img{
 border-radius: 50%;
 max-width:100%;

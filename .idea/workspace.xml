@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23bdba0a-962d-45e6-90a2-fc558c9550f5" name="Changes" comment="hw 2 complete">
+    <list default="true" id="23bdba0a-962d-45e6-90a2-fc558c9550f5" name="Changes" comment="more responsiveness">
+      <change afterPath="$PROJECT_DIR$/models/recipe_mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/frontendJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/recipe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FishFingerCSS.html" beforeDir="false" afterPath="$PROJECT_DIR$/FishFingerCSS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FishRecipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/FishRecipe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FishFingerCSS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FishRecipe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jumbo fish fingers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JumboFishFingers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlusSign.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchGoogle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classic-chocolate-mousse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fish_icon_24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roast-chicken-dishes-recipe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/silverware.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667593765706</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="more responsiveness">
+      <created>1667603935491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667603935491</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +125,7 @@
     <MESSAGE value="styling phase" />
     <MESSAGE value="styling phase." />
     <MESSAGE value="hw 2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 2 complete" />
+    <MESSAGE value="more responsiveness" />
+    <option name="LAST_COMMIT_MESSAGE" value="more responsiveness" />
   </component>
 </project>

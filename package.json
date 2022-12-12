@@ -1,0 +1,30 @@
+{
+  "name": "hw3node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devstart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TarekAljawi/221-SWE363.git"
+  },
+  "author": "tarekaljawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TarekAljawi/221-SWE363/issues"
+  },
+  "homepage": "https://github.com/TarekAljawi/221-SWE363#readme",
+  "dependencies": {
+    "db3": "^4.2.1",
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.3",
+    "sqlite3": "^5.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

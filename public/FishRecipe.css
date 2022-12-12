@@ -1,0 +1,149 @@
+.BG{
+background-image:url("silverware.jpg");
+}
+.UpperHome{
+text-align:center;
+}
+.UpperHome>h1{
+font-size:2vw;
+max-width:100%;
+}
+.Columnized{
+column-count:3;
+column-rule-color: #a4a400;;
+column-rule-style: solid ;
+margin: 10px 0;
+}
+.Columnized img{
+border-radius: 50%;
+max-width:100%;
+height: auto;
+}
+@media only screen and (max-width: 768px) {
+  .Columnized{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+     column-count: 2;
+  }
+}
+@media only screen and (max-width: 600px)  {
+  .Columnized{
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+     column-count: 1;
+  }
+}
+
+.centerAnchor{
+  margin: 0 auto;
+  color: #a4a400;
+  text-align: center;
+  align-self: center;
+  }
+  a:link {
+    color:#a4a400;
+  }
+  a:visited {
+    color: #a4a400;
+  }
+  a:hover {
+    color: #a4a400;
+  }
+  a:active {
+    color: #a4a400;
+  }
+  .comment{
+  background-color:#ffffa8;
+  }
+
+.form1,
+.form2{
+align-content:center;
+width:fit-content;
+max-width:50%;
+margin: 0 auto;
+ }
+ form{
+ margin: 0 auto;
+
+ }
+
+  input[type=text]{
+  resize: horizontal;
+   border: none;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    width: fit-content;
+  }
+  input[type=email]{
+     border: none;
+      border-bottom: 1px solid grey;
+      border-right: 1px solid grey;
+    }
+    textarea{
+      border: none;
+          border-bottom: 1px solid grey;
+          border-right: 1px solid grey;
+    }
+
+/* Generalization */
+.page1 {
+max-width:1024px;
+margin:auto;
+font-family:Segoe UI
+}
+.hasBoarder {
+max-width:50%;
+text-align: center;
+color:#a4a400;
+background-color:#f0f0f0;
+border-radius: 40px;
+margin:  0 auto;
+padding:20px 0;
+border:2px solid green;
+text-align: center;
+font-size: 1vw;
+}
+.subContent{
+max-width:50%
+margin: 0 auto;
+}
+.form2>form{
+width:fit-content;
+margin: 0 auto;
+}
+.form1>form{
+width:fit-content;
+margin: 0 auto;
+}
+.form1>h2{
+text-align:left;
+margin-block-start:0;
+}
+fieldset{
+margin: 0 auto;
+}
+.unordered1 {
+  list-style-image: url('fish_icon_24.png');
+ }
+
+
+
+
+
+
+/*for index*/
+.index{
+display: flex;
+column: 2;
+column-rule-color: #a4a400;
+column-rule-style: solid ;
+}
+#ul1{
+list-style-type: none;
+}
+.pic{
+border-radius: 50%;
+max-width:100%;
+height: auto;
+}

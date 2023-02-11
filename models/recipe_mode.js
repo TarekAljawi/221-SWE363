@@ -1,7 +1,7 @@
-var db3 = require('db3')
-var db = db3.connect({host: 'example.org', user: 'bob', password: 'secret', database : 'test'})
+const db3 = require('db3')
+const db = db3.connect({ host: 'example.org', user: 'bob', password: 'secret', database: 'test' })
 
-/*getAllRecipes() query the database to return an array of recipes from the recipes table.
+/* getAllRecipes() query the database to return an array of recipes from the recipes table.
 
 getRecipeDetail(recipe_id): query the database to return one object holding all the details of the recipe with the id given. Return data from the recipes, ingredients, and method table.
 
